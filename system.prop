@@ -1,0 +1,14 @@
+# 下面是修改Pixel 6 为 RMX8031
+
+ro.product.odm.model=RMX8031
+ro.product.odm_dlkm.model=RMX8031
+ro.product.vendor.model=RMX8031
+ro.product.system_ext.model=RMX8031
+ro.product.product.model=RMX8031
+ro.product.vendor_dlkm.model=RMX8031
+
+# 上面找到文件路径
+#  修改文件路径是为了防止直接读取文件获取机型 虽然app没有权限读取
+
+# 下面是没找到对应的文件路径
+ro.product.model=RMX8031
